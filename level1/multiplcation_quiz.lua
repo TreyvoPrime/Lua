@@ -38,6 +38,7 @@ function question_func(question_count)
         end
 
     end
+    -- print correct and incorrect amount
     print("Correct:" .. correct_guess .. "!")
     print("Incorrect:" .. incorrect_guess .. "!")
 
