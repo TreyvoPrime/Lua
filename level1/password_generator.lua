@@ -13,7 +13,6 @@ function password_generator(pass_length)
         password = password .. pass_characters[math.random(#pass_characters)]
 
     end
-
     print(password)
 
 end
